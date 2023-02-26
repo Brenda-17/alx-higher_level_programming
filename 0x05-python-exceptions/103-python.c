@@ -4,6 +4,7 @@
 #include <bytesobject.h>
 #include <floatobject.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <float.h>
 
 void print_python_float(PyObject *p)

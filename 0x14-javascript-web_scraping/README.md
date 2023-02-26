@@ -1,56 +1,20 @@
-# 0x14. Javascript - Web scraping
+In this project, we learn how to manipulate JSON data in javascript, and how to use the request module to fetch data from APIs. We also learn how to read and write files with the fs module
 
-This project involved practicing file I/O on Node.js and using the NPM request
-framework to interact with the [Star Wars](https://swapi.co/),
-[JSONplaceholder](https://jsonplaceholder.typicode.com), and
-[Twitter](https://developer.twitter.com/en/docs/api-reference-index) API's.
 
-## Tasks
+0-readme.js is a JS script that reads and prints the content of a file
 
-* **0. Readme**
-  * [0-readme.js](./0-readme.js): JavaScript script that reads and prints the
-  contents of a file.
-  * Usage: `./0-readme.js <file path>`.
+1-writeme.js is a JS script that writes a string to a file
 
-* **1. Write me**
-  * [1-writeme.js](./1-writeme.js): JavaScript script that writes a string to a
-  file.
-  * Usage: `./1-writeme.js <file path> <string to write>`.
+2-statuscode.js is a JS script that display the status code of a GET request
 
-* **2. Status code**
-  * [2-statuscode.js](./2-statuscode.js): JavaScript script that displays the
-  stauts code of a `GET` request using the `request` framework.
-  * Usage: `./2-statuscode.js <URL to GET>`.
-  * Output: `code: <status code>`.
+3-starwars_title.js is a JS script that prints the title of a Star Wars movie where the episode number matches a given integer
 
-* **3. Star wars movie title**
-  * [3-starwars_title.js](./3-starwars_title.js): JavaScript script that uses the
-  Star Wars API to print the title of the Star Wars movie with a given integer episode
-  number.
-  * Usage: `./3-starwars_title.js <3-starwars_title.js>`.
+4-starwars_count.js is a JS script that prints the number of movies where the character “Wedge Antilles” is present
 
-* **4. Star wars Wedge Antilles**
-  * [4-starwars_count.js](./4-starwars_count.js): JavaScript script that uses the
-  Star Wars API to print the number of movies featuring the character "Wedge Antilles".
-  * Usage: `./4-starwars_count.js http://swapi.co/api/films/`.
+5-request_store.js is a JS script that gets the contents of a webpage and stores it in a file
 
-* **5. Loripsum**
-  * [5-request_store.js](./5-request_store.js): JavaScript script that stores the
-  contents of a webpage in a file.
-  * Usage: `./5-request_store.js <URL to get> <file path to store content in>`.
+6-completed_tasks.js is a JS script that computes the number of tasks completed by user id
 
-* **6. How many completed?**
-  * [6-completed_tasks.js](./6-completed_tasks.js): JavaScript script that uses the
-  JSONPlaceholder API to compute the number of tasks completed per user ID.
-  * Usage: `./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos`.
+100-starwars_characters.js is a JS script that prints all characters of a Star Wars movie withThe first argument being the Movie ID - example: 3 = “Return of the Jedi” and it displays one character name by line
 
-* **7. Who was playing in this movie?**
-  * [100-starwars_characters.js](./100-starwars_characters.js): JavaScript script
-  that uses the Star Wars API to print all characters featured in a given movie.
-  * Usage: `./100-starwars_characters.js <movie ID>`.
-
-* **8. Right order**
-  * [101-starwars_characters.js](./101-starwars_characters.js): JavaScript script
-  that uses the Star Wars API to print all characters featured in a given movie in
-  the same order as they are listed in the `characters` list of the `/films/` response.
-  * Usage: `./101-starwars_characters.js <movie ID>`.
+101-starwars_characters.js is a JS script that prints all characters of a Star Wars movie withThe first argument being the Movie ID - example: 3 = “Return of the Jedi” and it displays one character name by line in the same order of the list “characters” in the /films/ response
